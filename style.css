@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: none;
+    font-family: 'Vazir';
+    src: url('Vazir-Bold.ttf') format('ttf');
+    font-weight: bold;
+    font-size: large;
+  }
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.row {
+    margin: 35px;
+}
+
+.result {
+    margin: 35px;
+}
+
+.hide {
+    display: none;
+}
