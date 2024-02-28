@@ -89,8 +89,8 @@ function test() {
           database.ref('variable/number').set(number);
     
 
-    
-          result.innerHTML = year.toString().slice(-1) + Math.ceil(days / 7) +
+          
+          result.innerHTML = year.toString().slice(-1) + String(Math.ceil(days / 7)).padStart(2, '0') +
             source.options[source.selectedIndex].value +
             subject.options[subject.selectedIndex].value +
             style.options[style.selectedIndex].value +
